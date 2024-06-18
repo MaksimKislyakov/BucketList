@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.app.traveldiary.screens.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/popularFragment"
+        android:name="com.app.traveldiary.screens.PopularFragment"
+        android:label="fragment_popular"
+        tools:layout="@layout/fragment_popular" />
+    <fragment
+        android:id="@+id/notPopularFragment"
+        android:name="com.app.traveldiary.screens.NotPopularFragment"
+        android:label="fragment_not_popular"
+        tools:layout="@layout/fragment_not_popular" />
+    <fragment
+        android:id="@+id/archiveFragment"
+        android:name="com.app.traveldiary.screens.ArchiveFragment"
+        android:label="fragment_archive"
+        tools:layout="@layout/fragment_archive" />
+</navigation>
